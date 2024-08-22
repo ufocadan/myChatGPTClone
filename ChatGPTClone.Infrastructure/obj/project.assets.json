@@ -1,0 +1,116 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "ChatGPTClone.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "ChatGPTClone.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ChatGPTClone.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ChatGPTClone.Application.dll": {}
+        }
+      },
+      "ChatGPTClone.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/ChatGPTClone.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ChatGPTClone.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ChatGPTClone.Application/1.0.0": {
+      "type": "project",
+      "path": "../ChatGPTClone.Application/ChatGPTClone.Application.csproj",
+      "msbuildProject": "../ChatGPTClone.Application/ChatGPTClone.Application.csproj"
+    },
+    "ChatGPTClone.Core/1.0.0": {
+      "type": "project",
+      "path": "../ChatGPTClone.Core/ChatGPTClone.Core.csproj",
+      "msbuildProject": "../ChatGPTClone.Core/ChatGPTClone.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "ChatGPTClone.Application >= 1.0.0",
+      "ChatGPTClone.Core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\unal.focadan\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\git\\myChatGPTClone\\ChatGPTClone.Infrastructure\\ChatGPTClone.Infrastructure.csproj",
+      "projectName": "ChatGPTClone.Infrastructure",
+      "projectPath": "E:\\git\\myChatGPTClone\\ChatGPTClone.Infrastructure\\ChatGPTClone.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\unal.focadan\\.nuget\\packages\\",
+      "outputPath": "E:\\git\\myChatGPTClone\\ChatGPTClone.Infrastructure\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\unal.focadan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "E:\\git\\myChatGPTClone\\ChatGPTClone.Application\\ChatGPTClone.Application.csproj": {
+              "projectPath": "E:\\git\\myChatGPTClone\\ChatGPTClone.Application\\ChatGPTClone.Application.csproj"
+            },
+            "E:\\git\\myChatGPTClone\\ChatGPTClone.Core\\ChatGPTClone.Core.csproj": {
+              "projectPath": "E:\\git\\myChatGPTClone\\ChatGPTClone.Core\\ChatGPTClone.Core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
